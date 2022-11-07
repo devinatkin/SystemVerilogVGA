@@ -1,0 +1,3 @@
+vgaCLKgen_clk_wiz.v,verilog,xil_defaultlib,../../../../VGATest.gen/sources_1/ip/vgaCLKgen/vgaCLKgen_clk_wiz.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
+vgaCLKgen.v,verilog,xil_defaultlib,../../../../VGATest.gen/sources_1/ip/vgaCLKgen/vgaCLKgen.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
+glbl.v,Verilog,xil_defaultlib,glbl.v

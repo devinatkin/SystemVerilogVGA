@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../VGATest.gen/sources_1/bd/MicroB/ipshared/ec67/hdl" --include "../../../../VGATest.gen/sources_1/ip/vgaCLKgen" \
+"../../../../VGATest.srcs/sources_1/new/colorLUT.sv" \
+"../../../../VGATest.srcs/sim_1/new/colorLUT_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

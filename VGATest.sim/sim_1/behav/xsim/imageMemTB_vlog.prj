@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../VGATest.gen/sources_1/bd/MicroB/ipshared/ec67/hdl" --include "../../../../VGATest.gen/sources_1/ip/vgaCLKgen" \
+"../../../../VGATest.gen/sources_1/ip/imageMemory/sim/imageMemory.v" \
+
+sv xil_defaultlib  --include "../../../../VGATest.gen/sources_1/bd/MicroB/ipshared/ec67/hdl" --include "../../../../VGATest.gen/sources_1/ip/vgaCLKgen" \
+"../../../../VGATest.srcs/sim_1/new/imageMemTB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

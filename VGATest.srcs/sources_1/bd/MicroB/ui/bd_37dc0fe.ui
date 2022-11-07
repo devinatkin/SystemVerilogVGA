@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.672357",
+   "Default View_TopLeft":"-143,-36",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port reset_rtl_0 -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port CLK100MHZ -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
+preplace port CLK_LOCKED -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port rx -pg 1 -lvl 0 -x 0 -y 660 -defaultsOSRD
+preplace port tx -pg 1 -lvl 6 -x 1790 -y 420 -defaultsOSRD
+preplace portBus outputs -pg 1 -lvl 6 -x 1790 -y 280 -defaultsOSRD
+preplace portBus inputs -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -x 880 -y 100 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -x 1310 -y 510 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 460 -y 100 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 460 -y 560 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -x 1620 -y 250 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -x 1310 -y 240 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1620 -y 410 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 0 5 N 460 170 20 640 0 1150 30 1480
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 1 630 130n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 2 N 540 NJ
+preplace netloc mdm_1_debug_sys_rst 1 1 2 180 30 630
+preplace netloc reset_rtl_0_1 1 0 2 NJ 540 N
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 3 640J 430 1140 40 1460
+preplace netloc axi_gpio_0_gpio2_io_o 1 5 1 NJ 280
+preplace netloc inputs_1 1 0 6 NJ 440 N 440 NJ 440 1120J 590 NJ 590 1770
+preplace netloc CLK_LOCKED_1 1 0 2 NJ 600 N
+preplace netloc rx_1 1 0 6 NJ 660 N 660 NJ 660 NJ 660 NJ 660 1760
+preplace netloc axi_uartlite_0_tx 1 5 1 NJ 420
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 4 1 N 230
+preplace netloc microblaze_0_M_AXI_DP 1 3 1 N 100
+preplace netloc microblaze_0_ilmb_1 1 3 1 1130 80n
+preplace netloc microblaze_0_dlmb_1 1 3 1 1160 60n
+preplace netloc microblaze_0_M_AXI_IC 1 3 1 N 140
+preplace netloc microblaze_0_M_AXI_DC 1 3 1 N 120
+preplace netloc microblaze_0_debug 1 2 1 N 90
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 4 1 1470 250n
+levelinfo -pg 1 0 150 460 880 1310 1620 1790
+pagesize -pg 1 -db -bbox -sgen -150 -20 1930 680
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"7",
+   "da_mb_cnt":"1"
+}

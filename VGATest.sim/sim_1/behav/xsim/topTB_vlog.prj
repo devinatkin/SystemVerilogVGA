@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../VGATest.gen/sources_1/ip/vgaCLKgen" \
+"../../../../VGATest.gen/sources_1/ip/vgaCLKgen/vgaCLKgen_clk_wiz.v" \
+"../../../../VGATest.gen/sources_1/ip/vgaCLKgen/vgaCLKgen.v" \
+
+sv xil_defaultlib  --include "../../../../VGATest.gen/sources_1/ip/vgaCLKgen" \
+"../../../../VGATest.srcs/sources_1/new/PWMmod.sv" \
+"../../../../VGATest.srcs/sources_1/new/RainboxGenerator.sv" \
+"../../../../VGATest.srcs/sources_1/new/pixelCounter.sv" \
+"../../../../VGATest.srcs/sim_1/new/top.sv" \
+"../../../../VGATest.srcs/sim_1/new/vgaSync.sv" \
+"../../../../VGATest.srcs/sim_1/new/topTB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

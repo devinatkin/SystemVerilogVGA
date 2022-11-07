@@ -1,0 +1,2 @@
+imageMemory.v,verilog,xil_defaultlib,../../../../VGATest.gen/sources_1/ip/imageMemory/sim/imageMemory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

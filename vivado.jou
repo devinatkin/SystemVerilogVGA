@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov  2 17:36:52 2022
+# Process ID: 60540
+# Current directory: C:/Users/devin/VGATest
+# Command line: vivado.exe -mode tcl
+# Log file: C:/Users/devin/VGATest/vivado.log
+# Journal file: C:/Users/devin/VGATest\vivado.jou
+#-----------------------------------------------------------
+open_project VGATest.xpr
+help
+help -category Simulation
+launch_simulation
+source TestImageOutputTB.tcl
+run 10ms;
+save_wave_config Test
+ls
+save_wave
+help -category Simulation
+current_time
+run 10ms
+current_time
+report _values
+report_values
+launch_runs synth_1
+reset_run synth_1
+report_power
+report_values
+help -category Simulation
