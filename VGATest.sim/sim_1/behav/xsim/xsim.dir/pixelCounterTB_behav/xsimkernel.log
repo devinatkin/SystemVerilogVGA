@@ -1,7 +1,0 @@
-Running: xsim.dir/pixelCounterTB_behav/xsimk.exe -simmode gui -wdb pixelCounterTB_behav.wdb -simrunnum 0 -socket 61899
-Design successfully loaded
-Design Loading Memory Usage: 5968 KB (Peak: 5968 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 14580 KB (Peak: 14580 KB)
-Simulation CPU Usage: 671 ms
